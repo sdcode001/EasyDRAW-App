@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <FrameLayout
+       android:id="@+id/draw_frame"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:padding="2dp"
+       android:layout_margin="2dp"
+       android:background="@drawable/drawview_background"
+       >
+      <ImageView
+          android:id="@+id/iv_background"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scaleType="centerCrop"
+          android:contentDescription="Background_Image"
+          android:background="@drawable/drawview_background"
+          />
+      <eu.deysouvik.easydraw.DrawView
+          android:id="@+id/draw_view"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_margin="3dp"
+           />
+
+   </FrameLayout>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center"
+       >
+
+      <ImageButton
+
+          android:layout_width="45dp"
+          android:layout_height="45dp"
+
+          android:layout_marginLeft="10dp"
+          android:contentDescription="Brush Color"
+          android:onClick="colorbtn"
+          android:scaleType="fitXY"
+          android:src="@drawable/color_icon"
+          android:tag="@color/black"
+          tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+      <ImageButton
+
+          android:layout_width="45dp"
+          android:layout_height="45dp"
+
+          android:contentDescription="Brush Color"
+          android:onClick="colorbtn"
+          android:scaleType="fitXY"
+          android:src="@drawable/color_blue"
+          android:tag="@color/blue"
+          tools:ignore="TouchTargetSizeCheck" />
+
+      <ImageButton
+
+          android:layout_width="45dp"
+          android:layout_height="45dp"
+
+          android:contentDescription="Brush Color"
+          android:onClick="colorbtn"
+          android:scaleType="fitXY"
+          android:src="@drawable/color_green"
+          android:tag="@color/green"
+          tools:ignore="TouchTargetSizeCheck" />
+
+      <ImageButton
+
+          android:layout_width="45dp"
+          android:layout_height="45dp"
+
+          android:contentDescription="Brush Color"
+          android:onClick="colorbtn"
+          android:scaleType="fitXY"
+          android:src="@drawable/color_teal"
+          android:tag="@color/teal_200"
+          tools:ignore="TouchTargetSizeCheck" />
+
+      <ImageButton
+
+          android:layout_width="45dp"
+          android:layout_height="45dp"
+
+          android:contentDescription="Brush Color"
+          android:onClick="colorbtn"
+          android:scaleType="fitXY"
+          android:src="@drawable/color_orange"
+          android:tag="@color/orange"
+          tools:ignore="TouchTargetSizeCheck" />
+
+      <ImageButton
+
+          android:layout_width="45dp"
+          android:layout_height="45dp"
+
+          android:contentDescription="Brush Color"
+          android:onClick="colorbtn"
+          android:scaleType="fitXY"
+          android:src="@drawable/color_red"
+          android:tag="@color/red"
+          tools:ignore="TouchTargetSizeCheck" />
+
+      <ImageButton
+
+          android:layout_width="45dp"
+          android:layout_height="45dp"
+
+          android:contentDescription="Brush Color"
+          android:onClick="colorbtn"
+          android:scaleType="fitXY"
+          android:src="@drawable/color_yellow"
+          android:tag="@color/yellow"
+          tools:ignore="TouchTargetSizeCheck" />
+
+      <ImageButton
+
+          android:layout_width="45dp"
+          android:layout_height="45dp"
+
+          android:contentDescription="Brush Color"
+          android:onClick="colorbtn"
+          android:scaleType="fitXY"
+          android:src="@drawable/color_skin"
+          android:tag="@color/skin"
+          tools:ignore="TouchTargetSizeCheck" />
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="3dp"
+       android:gravity="center"
+       >
+      <ImageButton
+          android:id="@+id/brushbtn"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:scaleType="fitXY"
+          android:contentDescription="Brush Size"
+          android:src="@drawable/brush_icon"
+          android:onClick="brushbtn"
+          />
+      <ImageButton
+          android:id="@+id/erasebtn"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:layout_marginLeft="10dp"
+          android:scaleType="fitXY"
+          android:contentDescription="Eraser"
+          android:src="@drawable/eraser_icon"
+          android:onClick="eraserbtn"
+          />
+
+      <ImageButton
+          android:id="@+id/undo_btn"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:layout_marginLeft="10dp"
+          android:scaleType="fitXY"
+          android:contentDescription="Undo"
+          android:src="@drawable/undo_icon"
+          android:onClick="undo_btn"
+          />
+      <ImageButton
+          android:id="@+id/gallerybtn"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:layout_marginLeft="10dp"
+          android:scaleType="fitXY"
+          android:contentDescription="Gallery"
+          android:src="@drawable/gallery_icon"
+          android:onClick="gallerybtn"
+          />
+      <ImageButton
+          android:id="@+id/save_btn"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:layout_marginLeft="10dp"
+          android:scaleType="fitXY"
+          android:contentDescription="Save"
+          android:src="@drawable/save_icon"
+          android:onClick="save_btn"
+          />
+
+      <ImageButton
+          android:id="@+id/share_btn"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:layout_marginLeft="10dp"
+          android:scaleType="fitXY"
+          android:contentDescription="Share"
+          android:src="@drawable/share_icon"
+          android:onClick="share_btn"
+          />
+
+
+   </LinearLayout>
+
+
+
+
+
+</LinearLayout>

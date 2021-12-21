@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/brush_icon_foreground.xml" value="0.15925925925925927" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/color_blue.xml" value="0.14351851851851852" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/color_green.xml" value="0.14351851851851852" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/color_icon.xml" value="0.14351851851851852" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/color_orange.xml" value="0.14351851851851852" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/color_red.xml" value="0.14351851851851852" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/color_skin.xml" value="0.14351851851851852" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/color_teal.xml" value="0.14351851851851852" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/color_yellow.xml" value="0.14351851851851852" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/default_background_style.xml" value="0.14351851851851852" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/drawview_background.xml" value="0.15925925925925927" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/large_brush.xml" value="0.15925925925925927" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/medium_brush.xml" value="0.15925925925925927" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/small_brush.xml" value="0.15925925925925927" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/drawable/very_small_brush.xml" value="0.12962962962962962" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/layout/brush_size_dialog.xml" value="0.18802083333333333" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/layout/brush_size_selection_dialog.xml" value="0.18802083333333333" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/layout/custom_progress_bar.xml" value="0.18802083333333333" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/mipmap-anydpi-v26/brush_icon.xml" value="0.15925925925925927" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/mipmap-anydpi-v26/brush_icon_round.xml" value="0.1015625" />
+        <entry key="..\:/my programming/android projects/EasyDRAW/app/src/main/res/xml/path.xml" value="0.18802083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
